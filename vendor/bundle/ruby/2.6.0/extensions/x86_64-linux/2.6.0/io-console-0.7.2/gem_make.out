@@ -1,0 +1,33 @@
+current directory: /home/taskcraft/Desktop/rails_basics/vendor/bundle/ruby/2.6.0/gems/io-console-0.7.2/ext/io/console
+/home/taskcraft/.rvm/rubies/ruby-2.6.5/bin/ruby -I /home/taskcraft/.rvm/rubies/ruby-2.6.5/lib/ruby/site_ruby/2.6.0 -r ./siteconf20240122-37365-12ju41q.rb extconf.rb
+checking for rb_io_path()... no
+checking for rb_io_descriptor()... no
+checking for rb_io_get_write_io()... yes
+checking for rb_io_closed_p()... no
+checking for rb_io_open_descriptor()... no
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... no
+checking for rb_scheduler_timeout()... no
+creating Makefile
+
+current directory: /home/taskcraft/Desktop/rails_basics/vendor/bundle/ruby/2.6.0/gems/io-console-0.7.2/ext/io/console
+make "DESTDIR=" clean
+
+current directory: /home/taskcraft/Desktop/rails_basics/vendor/bundle/ruby/2.6.0/gems/io-console-0.7.2/ext/io/console
+make "DESTDIR="
+compiling console.c
+console.c: In function ‘io_open_descriptor_fallback’:
+console.c:1540:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+ 1540 |     VALUE arguments[2] = {
+      |     ^~~~~
+console.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+linking shared-object io/console.so
+
+current directory: /home/taskcraft/Desktop/rails_basics/vendor/bundle/ruby/2.6.0/gems/io-console-0.7.2/ext/io/console
+make "DESTDIR=" install
+/usr/bin/install -m 0755 console.so ./.gem.20240122-37365-120pg1f/io

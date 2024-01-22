@@ -1,0 +1,15 @@
+current directory: /home/taskcraft/Desktop/rails_basics/vendor/bundle/ruby/2.7.0/gems/stringio-3.1.0/ext/stringio
+/home/taskcraft/.rvm/rubies/ruby-2.7.4/bin/ruby -I /home/taskcraft/.rvm/rubies/ruby-2.7.4/lib/ruby/2.7.0 -r ./siteconf20240122-28819-f60qhw.rb extconf.rb
+creating Makefile
+
+current directory: /home/taskcraft/Desktop/rails_basics/vendor/bundle/ruby/2.7.0/gems/stringio-3.1.0/ext/stringio
+make "DESTDIR=" clean
+
+current directory: /home/taskcraft/Desktop/rails_basics/vendor/bundle/ruby/2.7.0/gems/stringio-3.1.0/ext/stringio
+make "DESTDIR="
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: /home/taskcraft/Desktop/rails_basics/vendor/bundle/ruby/2.7.0/gems/stringio-3.1.0/ext/stringio
+make "DESTDIR=" install
+/usr/bin/install -m 0755 stringio.so ./.gem.20240122-28819-7woq0v

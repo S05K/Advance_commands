@@ -1,0 +1,15 @@
+current directory: /home/taskcraft/Desktop/rails_basics/vendor/bundle/ruby/2.6.0/gems/racc-1.7.3/ext/racc/cparse
+/home/taskcraft/.rvm/rubies/ruby-2.6.5/bin/ruby -I /home/taskcraft/.rvm/rubies/ruby-2.6.5/lib/ruby/site_ruby/2.6.0 -r ./siteconf20240122-33451-mv8n1t.rb extconf.rb
+creating Makefile
+
+current directory: /home/taskcraft/Desktop/rails_basics/vendor/bundle/ruby/2.6.0/gems/racc-1.7.3/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /home/taskcraft/Desktop/rails_basics/vendor/bundle/ruby/2.6.0/gems/racc-1.7.3/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/taskcraft/Desktop/rails_basics/vendor/bundle/ruby/2.6.0/gems/racc-1.7.3/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -m 0755 cparse.so ./.gem.20240122-33451-17wuo7l/racc
